@@ -47,10 +47,10 @@ function richiediCinqueNumeri(arr1, arr2, arr3) {
 
     // Annuncio il risultato (sempre all'interno della funzione)
     if (numeriIndovinati.length > 0) {
-        alert("Ecco i Numeri che hai indovinato : " + numeriIndovinati + ". In totale ne hai indovinati " + numeriIndovinati.length)
+        alert("In totale ne hai indovinati " + numeriIndovinati.length + ". Ecco i Numeri che hai indovinato : " + numeriIndovinati + ".")
     }
     if (numeriSbagliati.length > 0) {
-        alert("Questi numeri che hai digitato invece non erano presenti : " + numeriSbagliati + ". In totale ne hai sbagliati " + numeriSbagliati.length)
+        alert("In totale ne hai sbagliati " + numeriSbagliati.length + ". ecco quali: " + numeriSbagliati + "." )
     }
 }
 
